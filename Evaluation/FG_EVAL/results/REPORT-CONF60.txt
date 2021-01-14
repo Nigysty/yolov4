@@ -1,0 +1,73 @@
+Dictionary:	 ['gl', 'i1', 'i10', 'i12', 'i13', 'i14', 'i15', 'i2', 'i4', 'i5', 'i6', 'il', 'il100', 'il50', 'il60', 'il80', 'il90', 'ilo', 'io', 'ip', 'ipark', 'it', 'iu', 'p1', 'p10', 'p11', 'p12', 'p14', 'p19', 'p20', 'p23', 'p24', 'p26', 'p27', 'p28', 'p3', 'p5', 'p6', 'p8', 'p9', 'pa', 'pa13', 'pa14', 'panel', 'pao', 'pb', 'pg', 'ph', 'ph2', 'ph3', 'ph4', 'ph5', 'pho', 'pl', 'pl10', 'pl100', 'pl110', 'pl120', 'pl15', 'pl20', 'pl30', 'pl35', 'pl40', 'pl5', 'pl50', 'pl60', 'pl70', 'pl80', 'pl90', 'pm', 'pm10', 'pm15', 'pm20', 'pm30', 'pm40', 'pm49', 'pm55', 'pmo', 'pn', 'pne', 'po', 'pot', 'pr', 'pr20', 'pr30', 'pr40', 'pr50', 'pr80', 'pro', 'ps', 'pw', 'pw2', 'pw3', 'pw4', 'pwo', 'rl', 'sc', 'tl', 'w13', 'w15w58', 'w16w59', 'w18', 'w20', 'w21', 'w22', 'w30', 'w32', 'w35', 'w42', 'w43', 'w47', 'w55', 'w57', 'w63', 'wcam', 'wo']
+ImageSet:  	 12045
+Start _get_annotations() ......
+Start _get_annotations() ......
+Evaluation Script for detecion algorithm: 
+     to change the parameter, try `python map_eval.py --help` 
+        Parameters: 
+         annotation_file:   ./results/GTBOX_GIS-SIGN-FG-BASE2+.txt 
+         detection_file:    ./results/DECTS_TCV187-SSCE-TOP3-C1-90_GIS-SIGN-FG-BASE2+.txt 
+         confidence:        0.6 
+         iou:               0.4 
+         out_dir:               ./results
+
+
+p14	#Annot:345  	#Dects:348  	#Hit:341  		#AP:0.9869	#Precision:0.9799	#Recall:0.9884
+p19	#Annot:499  	#Dects:521  	#Hit:492  		#AP:0.9631	#Precision:0.9443	#Recall:0.986
+p20	#Annot:359  	#Dects:369  	#Hit:357  		#AP:0.9928	#Precision:0.9675	#Recall:0.9944
+p23	#Annot:536  	#Dects:558  	#Hit:534  		#AP:0.9892	#Precision:0.957	#Recall:0.9963
+p24	#Annot:7    	#Dects:0    	#Hit:0    		#AP:0.0  	#Precision:0.0  	#Recall:0.0  
+p26	#Annot:786  	#Dects:853  	#Hit:766  		#AP:0.954	#Precision:0.898	#Recall:0.9746
+p28	#Annot:11   	#Dects:10   	#Hit:10   		#AP:0.9091	#Precision:1.0  	#Recall:0.9091
+p5	#Annot:321  	#Dects:347  	#Hit:321  		#AP:0.993	#Precision:0.9251	#Recall:1.0  
+pa	#Annot:1288 	#Dects:1313 	#Hit:1251 		#AP:0.9538	#Precision:0.9528	#Recall:0.9713
+pa13	#Annot:610  	#Dects:627  	#Hit:597  		#AP:0.9565	#Precision:0.9522	#Recall:0.9787
+pa14	#Annot:530  	#Dects:550  	#Hit:523  		#AP:0.9599	#Precision:0.9509	#Recall:0.9868
+ph	#Annot:3431 	#Dects:3489 	#Hit:3384 		#AP:0.9745	#Precision:0.9699	#Recall:0.9863
+ph2	#Annot:739  	#Dects:762  	#Hit:733  		#AP:0.9849	#Precision:0.9619	#Recall:0.9919
+ph3	#Annot:555  	#Dects:567  	#Hit:542  		#AP:0.9679	#Precision:0.9559	#Recall:0.9766
+ph4	#Annot:710  	#Dects:727  	#Hit:696  		#AP:0.9672	#Precision:0.9574	#Recall:0.9803
+ph5	#Annot:1243 	#Dects:1311 	#Hit:1217 		#AP:0.9583	#Precision:0.9283	#Recall:0.9791
+pl	#Annot:6961 	#Dects:7425 	#Hit:6914 		#AP:0.9782	#Precision:0.9312	#Recall:0.9932
+pl10	#Annot:274  	#Dects:297  	#Hit:271  		#AP:0.9618	#Precision:0.9125	#Recall:0.9891
+pl100	#Annot:520  	#Dects:543  	#Hit:512  		#AP:0.9711	#Precision:0.9429	#Recall:0.9846
+pl110	#Annot:13   	#Dects:18   	#Hit:13   		#AP:0.9179	#Precision:0.7222	#Recall:1.0  
+pl120	#Annot:577  	#Dects:588  	#Hit:572  		#AP:0.9855	#Precision:0.9728	#Recall:0.9913
+pl15	#Annot:247  	#Dects:308  	#Hit:241  		#AP:0.9658	#Precision:0.7825	#Recall:0.9757
+pl20	#Annot:366  	#Dects:422  	#Hit:364  		#AP:0.9534	#Precision:0.8626	#Recall:0.9945
+pl30	#Annot:497  	#Dects:518  	#Hit:481  		#AP:0.9512	#Precision:0.9286	#Recall:0.9678
+pl35	#Annot:264  	#Dects:277  	#Hit:260  		#AP:0.9767	#Precision:0.9386	#Recall:0.9848
+pl40	#Annot:499  	#Dects:545  	#Hit:493  		#AP:0.9593	#Precision:0.9046	#Recall:0.988
+pl5	#Annot:950  	#Dects:1050 	#Hit:939  		#AP:0.9615	#Precision:0.8943	#Recall:0.9884
+pl50	#Annot:446  	#Dects:469  	#Hit:438  		#AP:0.9764	#Precision:0.9339	#Recall:0.9821
+pl60	#Annot:890  	#Dects:913  	#Hit:880  		#AP:0.9736	#Precision:0.9639	#Recall:0.9888
+pl70	#Annot:427  	#Dects:458  	#Hit:423  		#AP:0.9735	#Precision:0.9236	#Recall:0.9906
+pl80	#Annot:597  	#Dects:614  	#Hit:587  		#AP:0.9788	#Precision:0.956	#Recall:0.9832
+pl90	#Annot:394  	#Dects:404  	#Hit:393  		#AP:0.9849	#Precision:0.9728	#Recall:0.9975
+pm	#Annot:2466 	#Dects:2598 	#Hit:2441 		#AP:0.9723	#Precision:0.9396	#Recall:0.9899
+pm10	#Annot:90   	#Dects:95   	#Hit:85   		#AP:0.929	#Precision:0.8947	#Recall:0.9444
+pm15	#Annot:105  	#Dects:112  	#Hit:103  		#AP:0.9578	#Precision:0.9196	#Recall:0.981
+pm20	#Annot:333  	#Dects:341  	#Hit:328  		#AP:0.9759	#Precision:0.9619	#Recall:0.985
+pm30	#Annot:492  	#Dects:529  	#Hit:491  		#AP:0.9895	#Precision:0.9282	#Recall:0.998
+pm40	#Annot:307  	#Dects:326  	#Hit:307  		#AP:0.9857	#Precision:0.9417	#Recall:1.0  
+pm49	#Annot:595  	#Dects:628  	#Hit:590  		#AP:0.9732	#Precision:0.9395	#Recall:0.9916
+pm55	#Annot:474  	#Dects:501  	#Hit:471  		#AP:0.9715	#Precision:0.9401	#Recall:0.9937
+pr	#Annot:8    	#Dects:6    	#Hit:2    		#AP:0.1875	#Precision:0.3333	#Recall:0.25 
+pr20	#Annot:0    	#Dects:0    	#Hit:0    		#AP:0    	#Precision:X    	#Recall:X    
+pr30	#Annot:2    	#Dects:2    	#Hit:0    		#AP:0.0  	#Precision:0.0  	#Recall:0.0  
+pr40	#Annot:0    	#Dects:1    	#Hit:0    		#AP:0    	#Precision:X    	#Recall:X    
+pr50	#Annot:2    	#Dects:2    	#Hit:2    		#AP:1.0  	#Precision:1.0  	#Recall:1.0  
+pw	#Annot:871  	#Dects:890  	#Hit:861  		#AP:0.9761	#Precision:0.9674	#Recall:0.9885
+pw2	#Annot:109  	#Dects:142  	#Hit:108  		#AP:0.9147	#Precision:0.7606	#Recall:0.9908
+pw3	#Annot:627  	#Dects:632  	#Hit:596  		#AP:0.927	#Precision:0.943	#Recall:0.9506
+pw4	#Annot:31   	#Dects:34   	#Hit:31   		#AP:0.9688	#Precision:0.9118	#Recall:1.0  
+
+
+tag (have gt-boxes class): 47.0
+Sum #Anno:33093	Sum #Dects:60328	Sum #Hits:32205	
+Total Precision:0.534	Total Recall:0.973	
+
+
+Whole      mAP [116 type]:	0.368
+Non-sparse mAP [47 type]:	0.909
+===========================================================================================================

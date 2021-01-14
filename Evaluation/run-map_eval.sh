@@ -1,0 +1,11 @@
+python3 map_eval_pil.py \
+        --annotation_file ./true.txt \
+        --detection_file  out.txt \
+        --confidence      0.4 \
+        --iou             0.3 \
+        --input_dir D:\car_cls\yolo4_dataset_20200715\images \
+        --out_dir ./output/ \
+        --record_mistake  True \
+        --draw_full_img   False \
+        --draw_cut_box    False \
+        --detect_subclass False 
